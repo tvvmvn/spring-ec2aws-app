@@ -15,6 +15,6 @@ public class Ec2awsApplication {
 
   @GetMapping("/")
   public String hello() {
-    return String.format("Hello EC2!");
+    return String.format("Hello World!");
   }
 }
